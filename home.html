@@ -14,7 +14,7 @@
 	 <meta property="og:site_name" content="SpyNotes" />
 </head>
 <style>
-@import url('https://fonts.googleapis.com/css?family=Special+Elite');
+@import url('https://fonts.googleapis.com/css?family=Libre+Barcode+128+Text');
 body
 {
 /*background: url("http://www.bittbox.com/wp-content/uploads/2008/06/10-37-Intriguing-404-Error-Page-Designs.jpg");*/
@@ -36,16 +36,18 @@ border: 2px solid black;
 }
 .error
 {
-font-family: 'Special Elite';
+font-family: 'Libre Barcode 128 Text';
   position: fixed;
-    bottom: 0;
-	left:40%;
    font-weight:bold;
-  font-size:80px;
-  -webkit-transform: scale(1, 2);
-  transform: scale(1, 2);
-    letter-spacing: 10px; 
+   bottom:90px;
+   font-size:400%;
+   letter-spacing:2px;
+   color:  #003973;
 
+}
+.btn-block
+{
+border:0;
 }
 @media screen and (max-width:500px){
 .btn-round-lg{
@@ -54,12 +56,12 @@ left:35%;
 }
 .error
 {
-left:20% !important;
+font-size:200%;
 }
 }
 </style>
 <body>
 <button type="button" class="btn btn-default btn-round-lg" onclick="location.href='https://github.com/adarshk007';">Author's Page</button>
-<div class="error">404</div>
+ <button type="button" class="btn btn-default btn-block error">404 ! Site is Under Maintenance</button> 
 </body>
 </html>
